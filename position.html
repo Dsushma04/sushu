@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Examples</title>
+  <style>
+    body {
+      height: 1500px; /* Makes scrollable page for fixed/sticky demos */
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      color: white;
+      padding: 10px;
+      margin-bottom: 30px;
+      font-weight: bold;
+    }
+
+    .static-box {
+      position: static;
+      background-color: steelblue;
+    }
+
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background-color: teal;
+    }
+
+    .absolute-box-container {
+      position: relative;
+      height: 200px;
+      background-color: lightgray;
+      margin-bottom: 30px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 40px;
+      left: 40px;
+      background-color: crimson;
+    }
+
+    .fixed-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: darkorange;
+    }
+
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      background-color: forestgreen;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box static-box">Static Position</div>
+
+  <div class="box relative-box">Relative Position</div>
+
+  <div class="absolute-box-container">
+    <div class="box absolute-box">Absolute Position (inside container)</div>
+  </div>
+
+  <div class="box sticky-box">Sticky Position (scroll to see it stick)</div>
+
+  <p>Scroll down to see how the sticky and fixed boxes behave as you move around!</p>
+
+  <div class="box fixed-box">Fixed Position</div>
+
+</body>
+</html>
