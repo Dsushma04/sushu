@@ -1,0 +1,27 @@
+
+p {
+  width:200px;
+  padding: 20px;
+  border: 5px solid #f8f8f8;
+  margin: 10px;
+  color:white;
+ background: linear-gradient(to right, #bac085, #45c4c4);
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-image: url("https://i2.wp.com/www.skiptomylou.org/wp-content/uploads/2023/02/Brown-heart-wallpaper-Computer-600x338.png");
+  display:inline-block;
+}
+  h3{
+    color:white;
+    background: linear-gradient(45deg,rgb(83, 53, 13),rgb(221, 167, 123));
+    border:1px #f8f8f8;
+    border-radius: 5px;
+  }
+  div{
+ 
+    border:2px solid rgb(155, 117, 47);
+      display:inline-block;
+      border-radius: 5px;
+  }
+   
+ 
