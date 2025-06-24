@@ -1,0 +1,150 @@
+                                                                                               JAVA
+Basic java code with return type
+
+class Main {
+    public static void main(String[] args) {
+       Main m = new Main();
+       System.out.println(m.greet());
+    }
+    public String greet(){
+        return "hello";   
+    }
+}
+
+sum of 2 numbers using method
+
+class Mru {
+    public static void main(String[] args) {
+       in
+t a = 10;int b = 20;
+       Mru m = new Mru();
+       System.out.println(m.add(a,b));
+    }
+    public int add(int c, int d){
+       return c + d;
+}
+    }
+OOPS CONCEPT
+
+*Poymorphism(method overloading)*
+
+class Mru {
+    public static void main(String[] args) {
+       Mru m = new Mru();
+       m.add(10,20);
+    }
+    public void add(int a, int b){
+       System.out.println(a+b);
+    }
+    public void add(int a,int b, int c){
+       System.out.println(a+b+c);
+    }
+}
+
+\\USing Scanner cls & obj:\\
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter name:");
+        String name = sc.nextLine();
+        
+        Main m = new Main();
+        m.greet();
+        m.greet(name);
+    }
+
+    public void greet() {
+        System.out.println("Hello");
+    }
+
+    public void greet(String name) {
+        System.out.println("Hello " + name);
+    }
+}
+
+*INHERITANCE*
+
+#Single Inheritance
+
+public class Mru {
+    public static void main(String[] args) {
+        Parent p = new Child();
+        p.Pm(); 
+    }
+}
+
+public class Parent {
+    public void Pm() {
+        System.out.println("parent");
+    }
+}
+
+public class Child extends Parent {
+    public void Cm() {
+        System.out.println("child");
+    }
+}
+
+#Multi-Level Inheritance
+public class Mru {
+    public static void main(String[] args) {
+        Parent p = new Child1();
+        Child1 c = new Child2();
+        p.Pm(); 
+        c.Cm1();
+    }
+}
+
+public class Parent {
+    public void Pm() {
+        System.out.println("parent");
+    }
+}
+
+public class Child1 extends Parent {
+    public void Cm1() {
+        System.out.println("child1");
+    }
+}
+
+public class Child2 extends Child1 {
+    public void Cm2() {
+        System.out.println("child2");
+    }
+}
+
+#Hierarchial Inheritance
+
+public class Mru {
+    public static void main(String[] args) {
+        Parent p1 = new Child1();
+        Parent p2 = new Child2();
+        p1.Pm(); 
+        p2.Pm();
+    }
+}
+
+public class Parent {
+    public void Pm() {
+        System.out.println("parent");
+    }
+}
+
+public class Child1 extends Parent {
+    public void Cm1() {
+        System.out.println("child1");
+    }
+}
+
+public class Child2 extends Parent {
+    public void Cm2() {
+        System.out.println("child2");
+    }
+}
+
+
+
