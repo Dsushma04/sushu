@@ -47,9 +47,10 @@ Press F12 or Ctrl+Shift+J
 27.is js compiler based scripting language:no, it is interpreted
 28.yes,js is interpreter SL.                                                                                                                         30-06-2025
 <--promises in js-->
-1.pending
-2. fulfilled      
-3.rejected                
+to overcome the callback hell promises are introduced
+1.pending:-The initial state, neither fulfilled nor rejected
+2. (fulfilled)resolved:- The operation completed successfully, and the promise has a result..
+3.rejected :-The operation failed, and the promise has a reason (error).               
  *CallBack Hell:a function passed as an argument to another function. It's "called back" after a certain task is completed.(Nested callback)
  drawback:reduces application readability and performance
                                                                        01-07-2025
@@ -59,5 +60,6 @@ object in js: combination key &value pairs.using(:)colon
 Ex:-key:value
 ->we can use methods in object
 ->obj created using curly braces{.
+
 
 

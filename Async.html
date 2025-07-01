@@ -1,0 +1,44 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            let promise1=new Promise((resolve, reject)=>{
+                setTimeout(()=>{
+                    resolve("hello");
+                },1000);
+            });
+
+            let promise2=new Promise((resolve, reject)=>{
+                setTimeout(()=>{
+                    resolve("MRU");
+                },2000);
+            });
+
+            let promise3=new Promise((resolve, reject)=>{
+                setTimeout(()=>{
+                    resolve("IT");
+                },2000);
+            });
+
+             let getMessage=new Promise((resolve, reject)=>{
+                setTimeout(()=>{
+                    resolve("Hello from promise");
+                },2000);
+            });
+            let consume = async()=>{
+                let res = await promise1;
+                document.write(res,'<br>');
+
+                let res1 = await promise2;
+                document.write(res1,'<br>');
+
+                let res2 = await promise3;
+                document.write(res2,'<br>');
+
+                let res3 = await getMessage;
+                document.write(res3,'<br>');
+            };
+            consume();
+        </script>
+    </body>
+</html>
