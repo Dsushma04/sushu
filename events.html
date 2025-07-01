@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Student</title>
+    <script>
+        //onclick
+         function showMessage(){
+        alert("clicked");
+      }
+      //mouseover
+      function changeText(element){
+        element.innerText="hovered";
+      }
+        </script>
+  </head>
+  <body>
+    <button onclick="showMessage()">display </button>
+    <p onmouseover="changeText(this)">Hover .........</p>
+    <!-- submit -->
+   <form id="myForm">
+  <input type="text" placeholder="Enter name" required>
+  <button type="submit">submit</button>
+</form>
+
+<script>
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // prevents page reload
+    alert("Form submitted!");
+  });
+</script>
+
+     <!-- keydown -->
+   <input type="text" id="myInput" placeholder="Type">
+<script>
+  document.getElementById("myInput").addEventListener("keydown", function(){
+    document.write("key is being pressed");
+  });
+</script>
+
+<!-- //change Event:Triggered when input value change -->
+<br><br><select onchange="alert('You selected ' + this.value)">
+  <option value="HTML">HTML</option>
+  <option value="CSS">CSS</option>
+  <option value="JS">JS</option>
+</select>
+    </body>
+    </html>

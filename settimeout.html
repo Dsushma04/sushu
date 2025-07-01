@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- <script> 
+        document.write("start");
+        setTimeout(() => {
+            document.write("Executed");
+        }, 3000);
+        document.write("end");
+        
+        // repeats  the function at regular intervals
+        let count = 0;
+        let id = setInterval(() => {
+            count++;                                                                                                                                                                                                           
+            document.write("Repeats MRU " + count);
+        }, 2000);
+        if (count === 10) clearInterval(id);
+    </script> -->
+        <p id = "message">wait for it</p>
+        <script>
+        setTimeout(()=>{
+            document.getElementById("message").innerText="Text changed..";
+        },5000);
+        </script> -->
+    </body>
+</html>
