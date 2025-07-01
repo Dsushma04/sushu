@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Pseudo Classes</title>
+        <style>
+            button:hover{
+                background-color: aquamarine;
+            }
+            button:active{
+                background-color: blueviolet;
+            }
+            p:first-child{
+                color: magenta;
+            }
+            li:nth-child(2){
+                color: hotpink;
+            }
+            li:nth-child(odd){
+                color: burlywood;
+            }
+            div:not(.skip){
+                background-color: rgb(214, 165, 165);
+                padding:5px;
+                margin:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <button>Hover or click me</button>
+    <div>
+        <p>first para</p>
+        <p>Second para</p>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <div>Visible div</div>
+    <div class="skip">skipped div</div>
+
+    </body>
+</html>

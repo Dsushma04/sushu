@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+        localStorage.setItem("email", );
+        localStorage.setItem("username", dongeri);
+
+        function login(){
+        let username = document.getElementById("uname").value;
+        let email= document.getElementById("mail").value;
+        if(username==="sushu" && email==="sushu@gmail.com"){
+        alert("success");
+        }
+        else{
+        alert("failed");
+         }
+        }
+        </script>
+    </head>
+    <body>
+    <label for ="123">Username:</label>
+    <input type = "text" placeholder ="Enter Your Name"id = "uname"><br>
+    <label for = "124">email:</label>
+    <input type = "text" placeholder = "Enter email"id = "mail"><br>
+    <button onclick= "login()">login</button>
+    </body>
+</html>

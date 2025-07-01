@@ -1,0 +1,63 @@
+Events in Js:
+def:To perform actions whenever we click on the button
+1.onclick
+2.mouseover
+3.keydown
+4.load
+5.submit
+
+1.ON CLICK
+
+
+<--JS BASIC-->
+1.js is scripting language, interpreted based ,executes line by line.
+2.yes:js implements forms validations
+3. .js:extension for java script
+4.using html:js executed
+5.script:how to link with html
+6.yes
+7.static and dynamic web applications
+8.Static :content cannot change unless somone manually updates it.
+Dynamic:content is generated in real time.
+9.
+10.js is synchronous bcoz it executes line by line,in the exact order its written.
+11. JS is object based scripting language.
+12.OBJECTS:function,date,string,error.....
+13.- DOM elements:
+document.getElementBy id,tagname,classname,querySelector,selector all
+14.to debug js app:console()
+15. To get current data
+const now = new Date();
+console.log(now);
+16.Display data on web page :Dynamically
+17.Display data on browser console:console.log()
+18.display array IN THE FORM OF TABLE IN BROWSER CONSOLE:console.table()
+19.JS IS SECURED?it depends on how you use it.
+20.VIEW PAGE SOURCE:console.log
+21.open browser console: 
+Press F12 or Ctrl+Shift+J
+-->right click and select inspect go to console.
+22.semi colons mandatory in js: optional
+23.why comments in js: human friendly,understand what the code is doing
+24.js supports how many times of comments
+- Single-line comments
+- Multi-line comments
+25.syntax for single LC: //
+26.syntax for MLC:-  /* ... */
+27.is js compiler based scripting language:no, it is interpreted
+28.yes,js is interpreter SL.                                                                                                                         30-06-2025
+<--promises in js-->
+1.pending
+2. fulfilled      
+3.rejected                
+ *CallBack Hell:a function passed as an argument to another function. It's "called back" after a certain task is completed.(Nested callback)
+ drawback:reduces application readability and performance
+                                                                       01-07-2025
+Chaining:calling different methods in a single line by using "."(dot).
+Ex: using method like greet()
+object in js: combination key &value pairs.using(:)colon 
+Ex:-key:value
+->we can use methods in object
+->obj created using curly braces{.
+
+

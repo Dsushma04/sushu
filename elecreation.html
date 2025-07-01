@@ -1,0 +1,29 @@
+<html lang="en">
+    <head>
+    </head>
+    <body>
+        <div id="container">
+        <h1 style="color:rgb(127, 60, 29);">Original content</h1>
+        </div>
+<button onclick="AddParagraph()" style="background-color: rgb(187, 155, 126); color: rgb(228, 228, 228); border: 1px solid black; padding: 10px px;">Add Paragraph</button>
+        <script>
+            function AddParagraph(){
+                const para = document.createElement("p");
+                para.innerText="this is a new paragraph";
+                para.style.margin="10px";
+                para.style.textAlign = "center";
+                para.style.padding="50px";
+                para.style.border= "1px solid black";
+                para.style.backgroundColor="skyblue";
+                para.style.backgroundImage = 'url("https://www.fabmood.com/wp-content/uploads/2024/02/cute-wallpaper-15-1.jpg")';
+                document.getElementById("container").appendChild(para);
+                const image=document.createElement("img")
+                image.src = "https://i.pinimg.com/474x/ca/f1/49/caf14955254bb5f67c4f781a385b5355.jpg"
+                image.alt = "simple image";
+                image.style.margin = "10px";
+                image.style.width = "150px";
+                document.getElementById("container").appendChild(image);
+            }
+       </script>
+    </body>
+</html>

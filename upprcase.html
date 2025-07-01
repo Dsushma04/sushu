@@ -1,6 +1,48 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <script src="uppercase.js"></script>
 </head>
+</html> -->
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Student List</title>
+</head>
+<body>
+    <h2>Student Names</h2>
+    <ul id="studentList"></ul>
+
+    <script>
+        let numStudents = parseInt(prompt("How many students?"));
+        let list = document.getElementById("studentList");
+
+        for (let i = 0; i < numStudents; i++) {
+            let name = prompt(`Enter the name of student ${i + 1}:`);
+            let li = document.createElement("li");
+            li.textContent = name;
+            list.appendChild(li);
+        }
+    </script>
+</body>
+<!-- </html>  -->
+<html>
+  <head>
+    <title>Student</title>
+    <script>
+        function login(){
+        let username = document.getElementById("Sname").value;
+        let li = document.createElement("li");
+        li.textContent = username;
+        document.getElementById("list").appendChild(li);
+        }
+        </script>
+  </head>
+  <body>
+    <label for="123">Student name:</label>
+        <input type = "text" placeholder="Enter your name"id="Sname">
+         <button onclick="login()">Submit</button>
+         <ul id="list"></ul>
+        
+  </body>
 </html>

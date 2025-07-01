@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <script>
+            function CALCULATOR(){
+                let n1 = parseInt(document.getElementById("num1").value)
+                let n2 = parseInt(document.getElementById("num2").value)
+                let op = document.getElementById("op").value
+                console.log(op);
+                switch(op){
+                    case "add":
+                        alert(n1+n2);
+                    case "sub":
+                        alert(n1-n2);
+                    case "mul":
+                        alert(n1*n2);
+                    case "div":
+                        alert(n1/n2);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+        <select id="op">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+        </select>
+        <button onclick="CALCULATOR()">calculate</button>
+    </body>
+</html>
